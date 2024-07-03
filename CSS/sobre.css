@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #a88061;
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Barra de navegação */
+.navbar {
+    height: 13.5vh;
+    width: 100%;
+    background-color: #60422B;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+    margin-left: 7vh;
+}
+
+#slogan {
+    font-family: 'Courier New', Courier, monospace;
+
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    margin-right: auto;
+    margin-left: 10vh;
+}
+
+.navbar>ul>li {
+    display: inline-block;
+    margin-right: 8vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#home,
+#sobre,
+#contatos {
+    margin-right: 7vh;
+    border-bottom: 2px solid transparent;
+    border-radius: 5%;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 3px;
+    transition: ease 0.5s;
+}
+
+
+#home:hover,
+#sobre:hover,
+#contatos:hover {
+    border-bottom: 2px solid #d6d6d6;
+    opacity: 60%;
+}
+
+#carrinho {
+    margin-right: 7vh;
+    width: 20px;
+    height: 20px;
+    transition: ease 0.5s;
+}
+
+#carrinho:hover {
+    opacity: 60%;
+}
+
+
+
+
+/* ---- --- --- --- --- ---- */
+
+
+/* Principal */
+p {
+    margin: 0;
+}
+
+.principal {
+    padding-top: 16vh;
+}
+
+/* ---- --- --- --- --- ---- */
+
+
+/* Rodapé */
+.footer {
+    width: 100%;
+    height: 12vh;
+
+    color: white;
+    background-color: #60422B;
+    position: relative;
+}
+
+/* ---- --- --- --- --- ---- */
